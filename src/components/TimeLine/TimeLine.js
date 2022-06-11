@@ -70,7 +70,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Experienced JavaScript Developer with 5+ years in the industry. 
+        Experienced JavaScript Developer with 4+ years in the industry. 
         Proficient in React and JavaScript ECMAScript 6+. Increased speed of 
         product lifecycle and 100% of the time delivered projects within deadline. 
         Willingness to learn and master Back-end Development and Web Servers 
