@@ -30,18 +30,9 @@ function Hero() {
           <Span2 style={{ marginLeft: "2rem" }} ref={textRef}></Span2>
         </SectionTitle>
         <SectionText2>
-          Are you looking for a fresh and highly motivated Frontend developer? I'm here for you! You can download my CV/Resume by
-          clicking on the button below.
+          I’m highly responsible and communicative so you can trust me with your project and I will provide you with the best, high-quality results, in a prompt manner and respecting the deadline. 
           <br />
         </SectionText2>
-        <Button
-          onClick={() =>
-            (window.location =
-              "https://drive.google.com/uc?export=download&id=17tKOhx1MYfXvIFGFKZvj5f8Gnuw1IuCi")
-          }
-        >
-          <td>My CV</td>
-        </Button>
       </LeftSection>
     </Section>
   );

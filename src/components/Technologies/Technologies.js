@@ -26,11 +26,6 @@ const Technologies = () => (
     </Btn3>
     <SectionDivider style={{ marginBottom: "3%" }} />
     <SectionTitle>Skills</SectionTitle>
-    <SectionText>
-      My main stack is React.JS, I love it. But I am also proficient in and work
-      with HTML/CSS. As for the back-end I am knowledgeable in Node.JS, Express, PHP and Laravel.
-      Additionally, I am competent in API and NoSQL database (MongoDB).       
-    </SectionText>
     <List>
       <ListItem>
         <DiReact
@@ -46,13 +41,16 @@ const Technologies = () => (
               style={{
                 fontWeight: "bolder",
                 fontStyle: "italic",
+                fontSize: "23px"
               }}
             >
-              Experience with
+              Expert In
             </span>{" "}
             <br />
-            <br /> React.js <br /> React Native <br /> Next.js <br /> Gatsby.js <br /> HTML 5 <br /> CSS <br /> JavaScript <br />{" "}
-            Redux
+            <p style={{margin: "0 0 20px 0"}}><br/>React.js <br /> React Native <br /> Next.js <br /> Gatsby.js <br/> Redux</p> 
+            <p style={{margin: "20px 0"}}>JavaScript <br />TypeScript</p>
+            <p style={{margin: "20px 0"}}>HTML<br /> CSS<br/> Bootstrap<br/> MUI<br/> TailwindCSS<br/> Styled Component <br/>Emotion Core<br/></p>
+            <p style={{margin: "20px 0"}}>RESTful API <br />GraphQL</p>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -66,10 +64,10 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
-              knowledgeable with
+            <span style={{ fontWeight: "bolder", fontStyle: "italic",fontSize: "23px"}}>
+              Expert In
             </span>{" "}
-            <br /> <br /> Node.js <br /> Express <br /> PHP <br /> Laravel <br /> API
+            <p style={{padding:"0px"}}><br /> Node.js <br /> Express <br /> Laravel <br /> Contentful <br/> Prismic <br/> Strapi <br/> Keystone <br/>Netlify <br/>Heroku <br/>Vercel <br/>Digital Ocean</p>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -83,11 +81,12 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>DataBase</ListTitle>
           <ListParagraph>
-            <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
-              knowledgeable with
+            <span style={{ fontWeight: "bolder", fontStyle: "italic", fontSize: "23px" }}>
+              Expert In
             </span>{" "}<br />
             <br />  MongoDB
             <br />  MySQL 
+            <br/> PostgreSOL
           </ListParagraph>
         </ListContainer>
         </ListItem>
@@ -99,16 +98,23 @@ const Technologies = () => (
             size="3rem"
           />
           <ListContainer>
-            <ListTitle>Blockchain</ListTitle>
+            <ListTitle>Other</ListTitle>
             <ListParagraph>
-              <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
-                knowledgeable with
+              <span style={{ fontWeight: "bolder", fontStyle: "italic", fontSize: "23px" }}>
+                Versed In
               </span>{" "}<br />
+               <p style={{margin: "0 0 20px 0"}}>
+                 <br/>    Docker
+                 <br/> AWS
               <br />  Web3
               <br />  Solidity
               <br />  Truffle
               <br />  Smart Contract
               <br />  Dapp
+               </p>
+         
+             
+             
             </ListParagraph>
           </ListContainer>
       </ListItem>
